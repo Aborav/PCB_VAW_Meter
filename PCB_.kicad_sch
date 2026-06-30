@@ -3021,6 +3021,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 116.84) (xy 218.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270702b1-2722-4e06-8a3e-200229a9ac3a")
+	)
+	(wire
+		(pts
 			(xy 219.71 132.08) (xy 219.71 130.81)
 		)
 		(stroke
@@ -3218,6 +3228,16 @@
 			(type default)
 		)
 		(uuid "57ad2d86-7ac0-4e51-8010-4329b86046f5")
+	)
+	(wire
+		(pts
+			(xy 213.36 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa3fb39-4a1f-4cc9-9552-747de2872129")
 	)
 	(wire
 		(pts
@@ -3421,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f7334a-29d3-4e7d-862c-f4a2246eb235")
+	)
+	(wire
+		(pts
 			(xy 63.5 118.11) (xy 63.5 116.84)
 		)
 		(stroke
@@ -3551,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 50.8) (xy 228.6 50.8)
+			(xy 203.2 50.8) (xy 205.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3568,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "b8abd5aa-0979-40e3-8222-d6fcd08d8c34")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b947962c-005d-44b8-8c71-50234a81c341")
 	)
 	(wire
 		(pts
@@ -3691,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 48.26) (xy 228.6 48.26)
+			(xy 203.2 48.26) (xy 205.74 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 53.34) (xy 228.6 53.34)
+			(xy 203.2 53.34) (xy 205.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +4113,7 @@
 	)
 	(global_label "DISP_DC"
 		(shape input)
-		(at 226.06 48.26 180)
+		(at 203.2 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4083,7 +4123,7 @@
 		)
 		(uuid "3e195260-b643-4844-9d81-792011ba8bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2129 48.26 0)
+			(at 192.3529 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4399,7 @@
 	)
 	(global_label "FAN_PWM"
 		(shape input)
-		(at 226.06 116.84 180)
+		(at 217.17 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4369,7 +4409,7 @@
 		)
 		(uuid "c0ed41a7-250b-4122-b4e3-deb2942a1dc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.4267 116.84 0)
+			(at 205.5367 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4465,7 @@
 	)
 	(global_label "DISP_CS"
 		(shape input)
-		(at 226.06 53.34 180)
+		(at 203.2 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4435,7 +4475,7 @@
 		)
 		(uuid "cb685786-b220-427f-9846-4d30149c2fe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2734 53.34 0)
+			(at 192.4134 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4487,7 @@
 	)
 	(global_label "DISP_RST"
 		(shape input)
-		(at 226.06 50.8 180)
+		(at 203.2 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4457,7 +4497,7 @@
 		)
 		(uuid "f02a6f79-0d79-4530-bfbe-170b8e2569e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3058 50.8 0)
+			(at 191.4458 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,6 +4882,73 @@
 			(project "PCB_"
 				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.25 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09d30a17-7ee5-4cf9-a710-8575afa9d61c")
+		(property "Reference" "R7"
+			(at 219.71 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 224.536 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 222.25 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97a48fd7-3280-4516-ba7f-468247624edd")
+		)
+		(pin "1"
+			(uuid "230dfe39-67dc-4ddd-ac85-eaa7f2e706a4")
+		)
+		(instances
+			(project "PCB_"
+				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5952,7 +6059,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 56.642 0)
+			(at 219.71 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,6 +6100,73 @@
 			(project "PCB_"
 				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60d1cb74-d399-4eba-b3cb-5131fe6ef8f4")
+		(property "Reference" "R5"
+			(at 205.74 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 214.122 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 209.55 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6856debd-d76e-4150-9daa-d4134a143563")
+		)
+		(pin "1"
+			(uuid "0de22516-c5df-44b9-9d31-a17125bed984")
+		)
+		(instances
+			(project "PCB_"
+				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6444,6 +6618,73 @@
 			(project "PCB_"
 				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a06fed-594f-4a90-b520-1e3492ff6d6e")
+		(property "Reference" "R6"
+			(at 205.486 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 214.122 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 209.55 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9c79869-41ba-402f-b415-9c02a65ab08b")
+		)
+		(pin "1"
+			(uuid "c0b9cf7e-25a5-489f-8673-ac1755304491")
+		)
+		(instances
+			(project "PCB_"
+				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -7669,6 +7910,73 @@
 			(project "PCB_"
 				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8db1a7f-8d49-401a-a5f7-13fdaa8237ba")
+		(property "Reference" "R3"
+			(at 205.74 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 214.122 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 209.55 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7614281d-cb78-4b9d-92a0-3e3e3fbb30ed")
+		)
+		(pin "1"
+			(uuid "998e7f27-1ad7-4b6d-948b-0fbef05c0b42")
+		)
+		(instances
+			(project "PCB_"
+				(path "/6437688b-faa9-4e7b-9276-d08822fb4c52"
+					(reference "R3")
 					(unit 1)
 				)
 			)
